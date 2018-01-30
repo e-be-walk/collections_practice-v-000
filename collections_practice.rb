@@ -35,4 +35,6 @@ def sum_array(array)
 end
 
 def add_s(array)
+  array.map do |plural|
+    "#{plural.join("s")}"
 end
