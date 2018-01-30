@@ -36,3 +36,11 @@ def find_a(array)
     name[0] == "a"
   end
 end
+
+def sum_array(array)
+  array.reduce do |sum, n|
+    sum + n 
+  end 
+end 
+      
+
