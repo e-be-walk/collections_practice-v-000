@@ -34,6 +34,5 @@ end
 def find_a(array)
   array.select do |name|
     name[0] == "a"
-    name
   end
 end
