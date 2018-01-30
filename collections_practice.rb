@@ -32,6 +32,3 @@ def find_a(array)
       "#{name}"
     end
 end
-
-def sum_array(array)
-end
