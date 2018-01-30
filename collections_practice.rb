@@ -14,7 +14,9 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-#no luck here- need to first assign an index to the array, then rearrange the items by index
+  second_item = array[1]
+  array[1] = array[2]
+  array[2] = second_item
 end
 
 def reverse_array(array)
@@ -37,4 +39,5 @@ end
 def add_s(array)
   array.map do |plural|
     "#{plural.join("s")}"
+  end
 end
